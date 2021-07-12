@@ -1,0 +1,187 @@
+body{
+    font-family: 'Zilla Slab', serif;
+    margin: 0%;
+}
+
+
+
+
+
+/* START NAVIGATION VAR*/
+
+ul
+{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: rgb(231, 102, 63);
+
+
+}
+li{
+    float: left;
+
+    
+}
+li a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 20px;
+}
+.active{
+    background-color: rgba(107, 195, 35, 0.65);
+}
+li a:hover:not(.active){
+    background-color: rgba(88, 224, 194, 0.767);
+}
+
+/* END NAVIGATION VAR*/
+
+
+
+
+
+/* HEADER FONT COLOR */
+.orange-color{
+    color: orange;
+}
+
+
+
+
+
+/* Order food, Contact Me button*/
+.button{
+    text-decoration: none;
+    color: white;
+    padding:10px 20px ;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgb(43, 129, 43), rgb(167, 233, 81));
+    box-shadow: 5px 5px 20px gray;    
+}
+
+
+
+
+
+/* Start first part and second part*/
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+
+.half-width{
+     width: 50%;
+     margin-left: 5%;
+     padding-left: 2%;
+}
+.self-introduction img{
+    width: 70%;
+}
+.self-introduction{
+    background-image: url(images/mid.jpg);
+    background-repeat: no-repeat;
+    
+}
+/* END first part and second part*/
+
+
+
+
+
+/* START Recipies part with 3 picture */
+.recipies{
+    text-align: center;
+}
+
+.third-one{
+    width: 33%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border: px solid white;
+    box-shadow: 10px 10px 40px gray;
+    padding: 1%;
+    border-radius: 20px;
+    
+  
+}
+.img-size img{
+    width: 100%;
+    margin-left: px;
+    border-radius:20px;
+
+}
+#ph2{
+    text-align: center;
+
+}
+/* End  START Recipies part with 3 picture*/
+
+
+
+
+
+
+/*start  YOu tube instagram followes*/
+#rating li{
+    list-style-type:none;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+#rating{
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+/*end  YOu tube instagram followes*/
+
+
+
+
+
+/* Start Contact me part*/
+.area{
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+    margin-bottom: 2%;
+
+}
+.contact-area{
+    color: rgb(240, 158, 27);
+}
+/*end  of contact me part*/
+
+
+
+
+
+/*start  last paart*/
+#network-color{
+ color: gray;
+}
+
+#last-part{
+    border: 25px;
+    padding-bottom: 70px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+/*End  last paart*/
+
+
+
+
